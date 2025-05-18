@@ -1,0 +1,76 @@
+#mapdiv {
+	height: 100vh;
+}
+
+
+/* gi-2x" is used to increase the Icon image size. */
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
+
+.popup-container-building {
+	width:80vw;			/*80% of the viewport width*/
+	max-width: 300px;	/*Maximum Width*/
+	height: 60vh;		/*60% of the viewport width*/
+	max-height: 400px;	/*Maximum Height*/
+	padding: 10px;		/*Add some Padding*/
+	box-sizing: border-box;		/*Ensure padding is included in width/height*/
+}
+
+
+.popup-container-pipeline {
+	width:80vw;			/*80% of the viewport width*/
+	max-width: 300px;	/*Maximum Width*/
+	height: 80vh;		/*60% of the viewport width*/
+	max-height: 450px;	/*Maximum Height*/
+	padding: 10px;		/*Add some Padding*/
+	box-sizing: border-box;		/*Ensure padding is included in width/height*/
+}
+
+
+.popup-container-valve {
+	width:80vw;			/*80% of the viewport width*/
+	max-width: 300px;	/*Maximum Width*/
+	height: 60vh;		/*60% of the viewport width*/
+	max-height: 400px;	/*Maximum Height*/
+	padding: 10px;		/*Add some Padding*/
+	box-sizing: border-box;		/*Ensure padding is included in width/height*/
+}
+
+
+.popup-form-group {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+
+.popup-label {
+	flex: 1;
+	margin-right: 10px;
+}
+
+
+.popup-input {
+	flex: 2;
+}
+
+
+.popup-button-group {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.popup-button {
+	flex: 1;
+	margin-right: 10px;
+}
+
+
+.popup-button:last-child {
+	margin-right: 0;
+}
+

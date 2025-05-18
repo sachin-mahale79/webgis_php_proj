@@ -1,0 +1,38 @@
+/*Login Page Settings*/
+
+body{
+	background-color: lightblue;
+}
+
+
+/*Applying style to the form*/
+#form{						/*This is the "id" value of the element.*/
+	background-color: white;
+	width: 25%;
+	margin: 120px auto;		/*Margin "auto" used to adjust the form in the center of the screen.*/
+	padding: 50px;			/*Padding is used to add a buffer around the form.*/
+	box-shadow: 10px 10px 5px rgba(82, 11, 77);
+	border-radius: 8px;		/*Border radius used to remove the sharp corners.*/
+	font-size: 20px;
+}
+
+
+
+/*Applying styles to the Header*/
+#header{
+	color: darkcyan;
+	font-size: 25px;
+	align-items: center;
+}
+
+
+
+/*Applying styles to the Button*/
+#btn{						/*This is the "id" value of the element.*/
+	color: white;			/*This is the button text color.*/
+	background-color: darkcyan;
+	padding: 10px;
+}
+
+
+
